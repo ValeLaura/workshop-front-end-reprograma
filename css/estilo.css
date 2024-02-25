@@ -1,0 +1,100 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* banner */
+
+.banner {
+    align-items: center;
+    background-image: url(../imagens/science.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+}
+
+h1, body {
+    margin: 0;
+}
+
+.banner h1, .banner p {
+    color: brown;
+}
+
+.banner p{
+    font-size: 20pt;
+}
+
+h1 { 
+    font-size: 30pt;
+}
+
+button {
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 14pt;
+    color: rgb(138, 41, 41);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+/* descrição */
+
+h2 {
+    color: #5caccc;
+}
+
+.descricao, .habilidades {
+    width: 40%;
+    display: inline-block;
+}
+
+.descricao button {
+    border-color:  rgb(138, 41, 41);
+}
+.sobre {
+    padding: 70px
+}
+
+.sobre button {
+    cursor: pointer
+}
+
+.habilidades {
+    margin-left: 50px;
+}
+
+/* footer */
+
+.redes-sociais-botao {
+    background-color: #5caccc;
+    width: 20%;
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 100px;
+}
+
+
+.redes-sociais-botao h4, .redes-sociais-botao p {
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.redes-sociais p {
+    font-size: 10pt
+}
